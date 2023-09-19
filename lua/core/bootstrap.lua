@@ -1,6 +1,7 @@
 local M = {}
 local fn = vim.fn
 
+
 M.echo = function(str)
   vim.cmd "redraw"
   vim.api.nvim_echo({ { str, "Bold" } }, true, {})
